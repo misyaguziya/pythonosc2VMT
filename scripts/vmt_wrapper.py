@@ -40,7 +40,7 @@ class Joystick:
     JOYSTICK_TOUCH_RELEASE:int = int(0)
     JOYSTICK_TOUCH_PRESS:int = int(1)
     JOYSTICK_CLICK_RELEASE:int = int(0)
-    JOYSTICK_CLICK__PRESS:int = int(1)
+    JOYSTICK_CLICK_PRESS:int = int(1)
 
 class Index:
     HMD:int = int(0)
@@ -442,4 +442,3 @@ if __name__ == "__main__":
     VMTRoomUnity(Index.CONTROLLER_R, Enable.ENABLE_CONTROLLER_R, target_R)
 
     # VMTUnsubscribeDevice("HMD")
-    # VMTOutSubscribedDevice()
